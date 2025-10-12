@@ -66,7 +66,7 @@ docker run --rm --privileged multiarch/qemu-user-static --reset -p yes
 make setup
 ```
 
-You may pass environment variable `SERVER_MESSAGE`, and its value shows on the main page. just chanhed something
+You may pass environment variable `SERVER_MESSAGE`, and its value shows on the main page.
 
 Edit *.env* file to set up environment variables.
 
