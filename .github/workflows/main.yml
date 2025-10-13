@@ -6,7 +6,7 @@ on:
       - 'main'
 
 env:
-  TEST_TAG: hexletcomponents/devops-example-app:test
+  TEST_TAG: 17artem/develop-example:test
 
 jobs:
   docker:
