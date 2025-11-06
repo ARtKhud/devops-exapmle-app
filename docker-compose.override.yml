@@ -4,12 +4,14 @@ services:
   app:
     volumes:
       - .:/app
+      - /app/node_modules
     ports:
       - 3000:3000
 
   caddy:
     volumes:
       - .:/app
+      - /app/node_modules
       - ./services/caddy/Caddyfile:/etc/caddy/Caddyfile
     ports:
       - 80:80
